@@ -76,7 +76,7 @@ export default function Profile() {
 									className="w-40 h-40 rounded-full"
 									onError={(e) => {
 										e.target.onerror = null; // Prevents infinite loop if the default image also fails
-										e.target.src = "https://cdn.vectorstock.com/i/500x500/17/61/male-avatar-profile-picture-vector-10211761.jpg";
+										// e.target.src = "https://cdn.vectorstock.com/i/500x500/17/61/male-avatar-profile-picture-vector-10211761.jpg";
 									}}
 								/>
 							</div>
